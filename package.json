@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "rm -rf ./dist/ && parcel ./public/index.html",
-    "build": "parcel build --no-source-maps --no-cache ./public/index.html -d dist --public-url ./"
+    "build": "parcel build --no-source-maps --no-cache ./public/index.html -d dist --public-url https://gechen186.github.io/gechen.github.io/"
   },
   "keywords": [
     "Parcel",
     "Tsx"
   ],
+  "homepage":"https://gechen186.github.io/gechen.github.io/",
   "author": "gechen",
   "license": "MIT",
   "devDependencies": {
